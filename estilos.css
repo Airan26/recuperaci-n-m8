@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+h1 {
+    color: #ff0000;
+}
+footer {
+    background-color: #008000;
+    color: #000000;
+    padding: 20px;
+}
+header {
+    background-color: #FFFF00; 
+    color: #000000;
+    padding: 20px;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px
+}
+
+.contenido {
+    background-color: #ff00dd;
+    padding: 20px;
+}
+
+.barra-lateral {
+    background-color: #00ccff;
+    padding: 20px;
+}
